@@ -3,7 +3,7 @@ from ursina import *
 
 app = Ursina()
 
-Entity(model='cube', color=color.red, texture='white_cube', scale=10)
+Entity(model='sphere', color=color.pink, texture='white_cube', scale=10)
 
 EditorCamera()
 
